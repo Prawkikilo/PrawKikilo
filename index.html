@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kikilo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <H1>KiKilo</H1>
+    <br>
+    <div class="display-center"></div>
+    <label for="speed">กรอกความเร็วหน่วยm/s</label>
+    <input id='inputspeed' type="text" name="speed" />
+    <button onclick="totime()">หาเวลาในการเดินทาง</button>
+    <br>
+    <label for="distance">กรอกระยะทางหน่วยเมตร</label>
+    <input id="inputdistance" type="text" name="distance" />
+    <button onclick="todistance()"> หาระยะทางในการเดินทาง</button>
+    <br>
+    <label for="time">กรอกเวลาหน่วยวินาที</label>
+    <input id="inputtime" type="text" name="time" />
+    <button onclick="tospeed()"> หาความเร็วที่ต้องใช้ในการเดินทาง</button>
+    </div>
+    <h3 id="result"></h3>
+    <script src="app.js">
+    </script>
+
+</body>
